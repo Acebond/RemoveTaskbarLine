@@ -17,7 +17,6 @@ int main() {
 
     double ScaleFactor = GetDpiForWindow(hWnd) / 96.00;
 
-    
     const int taskbarTop = 1; // Remove the top 1px border
     const int taskbarLeft = 0;
     const int taskbarWidth = (TaskbarRect.right - TaskbarRect.left) * ScaleFactor;
